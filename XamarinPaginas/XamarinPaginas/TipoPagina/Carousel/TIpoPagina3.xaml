@@ -7,7 +7,12 @@
         <StackLayout VerticalOptions="CenterAndExpand">
             <Label Text="Tipo Pagina" TextColor="Blue"
                 HorizontalOptions="CenterAndExpand" FontSize="30" />
-            <Button BackgroundColor="CadetBlue" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200" HeightRequest="150"/>
+            <Button BackgroundColor="CadetBlue"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="150"
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
