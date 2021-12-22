@@ -10,13 +10,19 @@ using Xamarin.Forms.Xaml;
 namespace XamarinPaginas.TipoPagina.Navigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Pagina3 : ContentPage
+    public partial class Modal : ContentPage
     {
-        public Pagina3()
+        public Modal()
         {
             InitializeComponent();
         }
 
- 
+        private void FecharModal(Object sender,EventArgs agrs)
+        {
+            Navigation.PopModalAsync();
+        }
+
+
+
     }
 }

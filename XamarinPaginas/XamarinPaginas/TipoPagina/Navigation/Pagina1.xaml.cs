@@ -23,6 +23,10 @@ namespace XamarinPaginas.TipoPagina.Navigation
             //App.Current.MainPage = new Pagina2();
             Navigation.PushAsync(new Pagina2());
         }
+        private void ChamarModal(Object sender,EventArgs args)
+        {
+            Navigation.PushModalAsync(new Modal());
+        }
 
     }
 }
