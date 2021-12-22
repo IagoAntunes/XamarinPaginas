@@ -10,7 +10,7 @@ namespace XamarinPaginas
         {
             InitializeComponent();
 
-            MainPage = new XamarinPaginas.TipoPagina.Carousel.TIpoPagina3();
+            MainPage = new XamarinPaginas.TipoPagina.Carousel.IntroducaoApp();
         }
 
         protected override void OnStart()
