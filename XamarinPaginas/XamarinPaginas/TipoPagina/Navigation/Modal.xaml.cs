@@ -16,5 +16,7 @@ namespace XamarinPaginas.TipoPagina.Navigation
         {
             InitializeComponent();
         }
+
+ 
     }
 }

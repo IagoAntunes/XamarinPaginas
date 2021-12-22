@@ -19,7 +19,10 @@ namespace XamarinPaginas.TipoPagina.Carousel
 
         private void Button_Clicked(object sender, EventArgs e)//Muda Pagina
         {
-            App.Current.MainPage = new Navigation.Pagina1();
+            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1())
+            {
+                //BarBackgroundColor = Color.Red
+            };
 
 
 

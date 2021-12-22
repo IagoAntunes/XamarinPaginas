@@ -16,5 +16,13 @@ namespace XamarinPaginas.TipoPagina.Navigation
         {
             InitializeComponent();
         }
+
+
+        private void MudarParaPagina2(object sender, EventArgs args)
+        {
+            //App.Current.MainPage = new Pagina2();
+            Navigation.PushAsync(new Pagina2());
+        }
+
     }
 }
