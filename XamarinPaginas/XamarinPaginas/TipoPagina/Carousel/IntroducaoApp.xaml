@@ -11,6 +11,10 @@
 
     <tipoPagina:TIpoPagina3/>
 
+    <ContentPage>
+        <Label Text="Ola Mundo"></Label>
+    </ContentPage>
+
 
 
 </CarouselPage>
