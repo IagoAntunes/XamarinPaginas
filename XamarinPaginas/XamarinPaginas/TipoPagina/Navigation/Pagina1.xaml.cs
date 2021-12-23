@@ -27,6 +27,10 @@ namespace XamarinPaginas.TipoPagina.Navigation
         {
             Navigation.PushModalAsync(new Modal());
         }
-
+        private void ChamarMaster(Object sender,EventArgs args)
+        {
+            App.Current.MainPage = new Master.Master();
+            //Master,Tabbed,Carousel
+        }
     }
 }

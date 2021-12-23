@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinPaginas.TipoPagina.Navigation.Pagina2"
              Title="Titulo da Pagina 2" >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa" Order="Primary"/>
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Eu sou a Segunda Pagina"
